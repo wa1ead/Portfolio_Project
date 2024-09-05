@@ -16,8 +16,59 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/0eb25e2a76.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
-    <h1 class="font-mons font-bold text-blue-500">hello world</h1>
+  <body class="bg-gradient-to-r from-indigo-950 to-indigo-900 text-indigo-100">
+    <header class="flex justify-center">
+      <div
+        class="text-center my-4 py-2 border border-black rounded-lg w-80 font-bold font-2 absolute bottom-0"
+      >
+        <ul class="flex gap-4 justify-center">
+          <a href="#hero"><li>Home</li></a>
+          <a href="#about"><li>About</li></a>
+          <a href="#projects"><li>Projects</li></a>
+          <a href="#contact"><li>Contact</li></a>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="mx-32">
+          <div class="text-center">
+            <h1 class="font-extrabold text-[50px] mt-20 mx-32">
+              👋 Hello! I'm WALID DRAÂ, a passionate Full Stack Developer
+            </h1>
+            <p class="font-bold text-2xl mt-8 mx-60">
+              specializing in JavaScript and the MERN Stack (MongoDB,
+              Express.js, React.js, Node.js)
+            </p>
+            <div class="mt-8 flex justify-center mx-60 gap-2">
+              <button
+                class="w-56 flex gap-2 justify-center items-center cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-800 to-black px-7 py-3 rounded-md border border-gray-600 duration-200 hover:border-gray-800 hover:from-black hover:to-gray-900"
+              >
+                Say Hi <i class="fa-regular fa-message"></i>
+              </button>
+              <button
+                class="w-56 flex gap-2 justify-center items-center cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-800 to-black px-7 py-3 rounded-md border border-gray-600 duration-200 hover:border-gray-800 hover:from-black hover:to-gray-900"
+              >
+                Resume <i class="fa-solid fa-file-arrow-down"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="mx-32">
+          <div class="bg-[url('./assets/about.webp')] bg-cover bg-center h-screen mt-32 ">
+            
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
