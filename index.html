@@ -63,8 +63,8 @@
         </div>
         <div class="bg-cover bg-[center_center] h-[400px] my-24 mx-4 rounded-md" style="
               background-image: linear-gradient(
-                  rgba(6, 0, 70, 0.8),
-                  rgba(6, 0, 70, 0.8)
+                rgba(4, 7, 29, 0.85),
+                rgba(12, 14, 35, 0.80)
                 ),
                 url(./assets/about.webp);
             ">
@@ -236,7 +236,39 @@
         </button>
       </div>
     </section>
-    <section id="contact"></section>
+    <section id="contact">
+      <div class="mx-32 my-20">
+        <h1 class="text-center text-4xl font-bold mb-8">Let's Have a Chat</h1>
+        <div class="flex justify-between gap-4">
+          <div class="bg-cover bg-[center_center] h-[400px] w-[60%] my-24 mx-4 rounded-md" style="
+          background-image: linear-gradient(
+              rgba(0, 0, 0, 0.65),
+              rgba(0, 0, 0, 0.70)
+            ),
+            url(https://cdn.sanity.io/images/y178r8ab/production/fdbb5d2958b2e343358d59c12e430049a3744479-4096x2776.jpg);
+        "></div>
+        <div>
+          <h3 class="text-center font-semibold text-lg">Leave your email and I will get back to you within 24 hours</h3>
+          <form action="POST" class="flex flex-col">
+            <label for="name" class="font-semibold">Name
+              <input type="name" id="name" placeholder="Walid Draa" class="block border border-gray-600 rounded-lg w-full bg-gray-900 h-8 p-4 font-medium text-sm mt-2 mb-4"/>
+            </label>
+            <label for="email">Email
+
+              <input type="email" id="email" placeholder="hello@iamwalid.com" class="block border border-gray-600 rounded-lg w-full bg-gray-900 h-8 p-4 font-medium text-sm mt-2 mb-4">
+            </label>
+            <label for="subject">Subject
+
+              <input type="text" id="subject" placeholder="Want to build a website" class="block border border-gray-600 rounded-lg w-full bg-gray-900 h-8 p-4 font-medium text-sm mt-2 mb-4">
+            </label>
+            <label for="message">Message
+              <textarea id="message" rows="5" placeholder="Looking for a skilled software developer in the MERN Stack" class="block border border-gray-600 rounded-lg w-full bg-gray-900 p-4 font-medium text-sm mt-2 mb-4"></textarea>
+            </label>
+          </form>
+        </div>
+        </div>
+      </div>
+    </section>
   </main>
 </body>
 
