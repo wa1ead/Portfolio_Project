@@ -239,31 +239,35 @@
     <section id="contact">
       <div class="mx-32 my-20">
         <h1 class="text-center text-4xl font-bold mb-8">Let's Have a Chat</h1>
-        <div class="flex justify-between gap-4">
-          <div class="bg-cover bg-[center_center] h-[400px] w-[60%] my-24 mx-4 rounded-md" style="
+        <div class="flex justify-center gap-4">
+          <div class="bg-cover bg-[center_center] h-[500px] w-[60%] my-4 mx-4 rounded-md" style="
           background-image: linear-gradient(
               rgba(0, 0, 0, 0.65),
               rgba(0, 0, 0, 0.70)
             ),
             url(https://cdn.sanity.io/images/y178r8ab/production/fdbb5d2958b2e343358d59c12e430049a3744479-4096x2776.jpg);
         "></div>
-        <div>
+        <div class="flex flex-col justify-center">
           <h3 class="text-center font-semibold text-lg">Leave your email and I will get back to you within 24 hours</h3>
           <form action="POST" class="flex flex-col">
             <label for="name" class="font-semibold">Name
-              <input type="name" id="name" placeholder="Walid Draa" class="block border border-gray-600 rounded-lg w-full bg-gray-900 h-8 p-4 font-medium text-sm mt-2 mb-4"/>
+              <input type="name" id="name" placeholder="Walid Draa" class="block border border-gray-600 rounded-lg w-full bg-gray-900 h-10 p-4 font-medium text-sm mt-2 mb-4"/>
             </label>
-            <label for="email">Email
+            <label for="email" class="font-semibold">Email
 
-              <input type="email" id="email" placeholder="hello@iamwalid.com" class="block border border-gray-600 rounded-lg w-full bg-gray-900 h-8 p-4 font-medium text-sm mt-2 mb-4">
+              <input type="email" id="email" placeholder="hello@iamwalid.com" class="block border border-gray-600 rounded-lg w-full bg-gray-900 h-10 p-4 font-medium text-sm mt-2 mb-4">
             </label>
-            <label for="subject">Subject
+            <label for="subject" class="font-semibold">Subject
 
-              <input type="text" id="subject" placeholder="Want to build a website" class="block border border-gray-600 rounded-lg w-full bg-gray-900 h-8 p-4 font-medium text-sm mt-2 mb-4">
+              <input type="text" id="subject" placeholder="Want to build a website" class="block border border-gray-600 rounded-lg w-full bg-gray-900 h-10 p-4 font-medium text-sm mt-2 mb-4">
             </label>
-            <label for="message">Message
-              <textarea id="message" rows="5" placeholder="Looking for a skilled software developer in the MERN Stack" class="block border border-gray-600 rounded-lg w-full bg-gray-900 p-4 font-medium text-sm mt-2 mb-4"></textarea>
+            <label for="message" class="font-semibold">Message
+              <textarea id="message" rows="3" placeholder="Looking for a skilled software developer in the MERN Stack" class="block border border-gray-600 rounded-lg w-full bg-gray-900 p-4 font-medium text-sm mt-2 mb-4"></textarea>
             </label>
+            <button type="submit"
+            class="w-full flex gap-2 justify-center items-center cursor-pointer text-gray-400 font-semibold text-lg bg-gradient-to-r from-gray-800 to-black px-7 py-3 rounded-md border border-gray-600 duration-200 hover:border-gray-800 hover:from-black hover:to-gray-900 mx-auto">
+            Submit<i class="fa-regular fa-paper-plane"></i>
+          </button>
           </form>
         </div>
         </div>
